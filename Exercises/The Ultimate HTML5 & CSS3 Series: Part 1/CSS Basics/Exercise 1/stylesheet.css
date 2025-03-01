@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+    border-color: #c4dcf3;
+}
+
+th {
+    border: 1px solid;
+    text-align: left;
+    padding: 8px;
+    border-color: #427fef;
+}
+
+.bodyData:nth-child(even) {
+    background-color: #eef7ff;
+}
+
+.headerRow {
+    border-collapse: collapse;
+    background-color: #427fef;
+    color: white;
+}
+
+.footerRow {
+    border-collapse: collapse;
+    background-color: #427fef;
+    border-color: #427fef;
+    color: white;
+    font-weight: bold;
+}
+
+.footerData {
+    border-collapse: collapse;
+    background-color: #427fef;
+    border-color: #427fef;
+    color: white;
+    font-weight: bold;
+}
